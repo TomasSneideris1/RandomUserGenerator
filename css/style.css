@@ -1,0 +1,35 @@
+@import
+url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+body {
+    margin :0;
+    text-align: center;
+    }
+#user_photo{
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-left: 920px;
+    margin-right: 525px;
+    text-align: center;
+
+}
+.btn {
+    text-align: center;
+    background-color: DodgerBlue;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
+  }
+.newUserButton{
+    display:none;
+    position: absolute;
+    top: 50px;
+    left: 940px;
+    overflow: hidden;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DanskeTask</title>
+    <script src="script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="user-profile">
+        <div id="user_photo" onmouseover="myEnterFunction()" onmouseout="myLeaveFunction()"></div>
+        <button id="newUserButton" class="newUserButton" onclick="onButtonClick()">New</button>
+    </div>
+    <p><br><br></p>
+    <p><br><br></p>
+    <p><br><br></p>
+    <p id="user_title"></p>
+    <p id="user_value" style="text-transform: capitalize;"></p>
+    <p><br><br></p>
+    <div class="container">
+        <button class="btn btn-name" onmouseover="showFullname()"><img src="img/name.png"></button>
+        <button class="btn btn-email" onmouseover="showEmail()"><img src="img/email.png"></button>
+        <button class="btn btn-age" onmouseover="showAge()"><img src="img/age.png"></button>
+        <button class="btn btn-password" onmouseover="showPassword()"><img src="img/password.png"></button>
+    </div>
+
+</body>
+
+</html>
